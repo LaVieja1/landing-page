@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -54,12 +55,14 @@ a {
     margin: 0px 30px 50px 30px;
 }
 
-button {
-    width: 20%;
-    background-color: #3882F6;
-    color: #F9FAF8;
+.button-one {
     border: 2px solid #3882F6;
-    border-radius: 5%;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 120px;
+    padding: 8px 1em;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 h1 {
@@ -132,7 +135,50 @@ cite {
 }
 
 .container-signup {
-    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 12em;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+}
+
+.left,
+.right {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.left p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.button-two {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 120px;
+    padding: 8px 1em;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 footer {
